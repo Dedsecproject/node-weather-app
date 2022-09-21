@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title 
+  p The weather in #{city} is 
+  i #{weather}
+  p The temperature is 
+  i #{temp}#{tempUnit}
+  p Date of report:
+   i #{date}
+  p Time of report:
+  i #{timestamp}
+  
+  a(class='button', href='/sendWeatherAPI') GET Weather

@@ -1,0 +1,11 @@
+body {
+	padding:50px;
+	font:14px arial, sans-serif;
+}
+
+a {
+	padding:5px;
+	border-radius:5px;
+	background-color:#00b7ff;
+	color:blue;
+}

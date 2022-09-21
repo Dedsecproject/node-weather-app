@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  h1= title
+  p Let's get the weather in #{city}
+  a(class='button', href='/sendWeatherAPI') GET Weather
